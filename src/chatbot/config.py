@@ -1,9 +1,3 @@
-"""
-Configuration module for the chatbot
-
-Contains all configuration constants and settings for the chatbot application.
-"""
-
 import os
 from pathlib import Path
 from dotenv import load_dotenv
@@ -15,7 +9,6 @@ if env_path.exists():
 
 
 class Config:
-    """Configuration class for chatbot settings"""
     
     # API Configuration
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
@@ -40,5 +33,4 @@ class Config:
     
     @classmethod
     def is_valid(cls):
-        """Check if configuration is valid"""
         return bool(cls.GEMINI_API_KEY and cls.GEMINI_API_KEY != "your_gemini_api_key_here")

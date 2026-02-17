@@ -23,7 +23,6 @@ class GeminiClient:
         
         if not self.model_name:
             raise ValueError(
-                "No compatible Gemini models found. Check your API key at:\n"
                 "https://aistudio.google.com/app/apikey"
             )
         
@@ -32,7 +31,7 @@ class GeminiClient:
         self.chat = self.model.start_chat(history=[])
     
     def _get_available_model(self):
-        """Get the first available model from the API"""
+       
         try:
             # List all available models
             models = genai.list_models()
@@ -58,7 +57,7 @@ class GeminiClient:
             return "gemini-pro"
 
     def ask(self, query, context):
-        """Generate a response based on user query and NLP context"""
+        
         try:
             # Create a dynamic prompt based on NLP structure
             dynamic_prompt = (
