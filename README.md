@@ -1,4 +1,6 @@
-# Intelligent Chatbot with NLP and Google Gemini AI
+# AI CHATBOT WITH NLP
+
+**Intelligent Chatbot with NLP and Google Gemini AI**
 
 ---
 
