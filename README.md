@@ -1,6 +1,6 @@
-# AI CHATBOT WITH NLP
+# Task - 3: AI Chatbot with NLP
 
-**Intelligent Chatbot with NLP and Google Gemini AI**
+**Intelligent Chatbot with Natural Language Processing and Google Gemini AI**
 
 ---
 
