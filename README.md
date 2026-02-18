@@ -113,3 +113,14 @@ Task-3/src/chatbot/
 - **API Resilience**: Comprehensive error handling
 - **Multi-Turn Conversations**: Chat history maintained
 - **Security**: API keys via .env, never hardcoded
+
+
+---
+
+## **Output**
+
+https://github.com/user-attachments/assets/3ca3181e-ba01-4e9b-b0a4-88697e93917b
+
+---
+
+
